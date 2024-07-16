@@ -7,7 +7,6 @@ This is a simple and responsive To-Do List application built using React, Vite, 
 - **Add Task:** Users can add a new task to the list.
 - **Edit Task:** Users can edit an existing task.
 - **Delete Task:** Users can delete a task from the list.
-- **Responsive Design:** The app is designed to be responsive and works well on small screens.
 
 ## Technologies Used
 
