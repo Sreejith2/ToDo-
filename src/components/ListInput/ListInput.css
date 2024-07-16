@@ -1,0 +1,35 @@
+
+.inputContainer{
+    width: 60%;
+    display: flex;
+}
+
+.listInput{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    outline: none;
+    padding: 6px;
+    flex: 1;
+    font-size: 16px;
+}
+
+.listInputButton{
+    padding: 8px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    border: none;
+}
+
+@media (max-width:600px) {
+    .listInput{
+        padding:4px;
+        font-size: 12px;
+    }
+    .listInputButton{
+        font-size: 12px;
+        pad: 4px;
+    }
+}

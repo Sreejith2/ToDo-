@@ -1,0 +1,66 @@
+.listItem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.item.done {
+    text-decoration: line-through;
+}
+
+.itemButton {
+    padding: 8px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    border: none;
+    margin: 2px 0;
+}
+
+.itemButtonContainer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.editInput {
+    padding: 4px;
+    outline: none;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .listItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .item{
+        font-size: 15px;
+    }
+    .itemButtonContainer {
+        flex-direction: column;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .itemButton {
+        width: 100%;
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    .editInput{
+        font-size: 12px;
+    }
+}
